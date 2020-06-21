@@ -80,7 +80,7 @@ def get_welcome_message(guild, members):
         f'Welcome to the server! I am Welcome Wagon, resident semi-sentient Help AI. Let me give you a tour.\n\nStarting from top to bottom:\n\n' + \
         f'- {mention_channel(guild,"change-my-nickname")} and {mention_channel(guild,"use-the-bots")} speak for themselves.\n' + \
         f'- {mention_channel(guild, "get-your-roles")} to show users here if you\'re a DM or player. These roles give your usernames those colors and lets you view the server channels that we use for games.\n\n' + \
-        f'- {mention_channel(guild, "ground-rules")} for __**server rules Vault**__.\n' + \
+        f'- {mention_channel(guild, "ground-rules")} for __**server rules**__.\n' + \
         f'- {mention_channel(guild, "how-to-dnd-5e")} for video __tutorials for learning D&D__.\n' + \
         f'- {mention_channel(guild, "how-to-al")} for the **important documents** for new Adventurers League players and DMs.\n' + \
         f'- {mention_channel(guild, "tutorial-room")} is where you can __ask people your D&D questions__. This is also where {tutor.mention} conducts her 1-on-1 and/or group tutorials.\n\n' + \
